@@ -2,6 +2,8 @@
 
 A proxy is an intermediary server that routes your requests to the destination API. If you're behind a corporate network or firewall, you'll need to configure proxy settings so Bruno can reach external servers.
 
+> Don't have a proxy server yet? See [Setting Up a Local Proxy on Your System](#4-setting-up-a-local-proxy-on-your-system) to quickly spin one up for testing.
+
 ---
 
 ## 1. Global Proxy Settings (Preferences)
