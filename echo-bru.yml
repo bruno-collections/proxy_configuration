@@ -1,0 +1,21 @@
+info:
+  name: echo-bru
+  type: http
+  seq: 1
+
+http:
+  method: POST
+  url: https://echo.usebruno.com
+  body:
+    type: json
+    data: |-
+      {
+        "usebruno": "The most loved API client by developers"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
